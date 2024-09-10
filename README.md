@@ -1,7 +1,45 @@
-# ESH
-*A WebSocket-based terminal emulator*
-**By: Ojoquinhaa**
----
+<p align="center">
+    <h1 align="center">ESH</h1>
+</p>
+<p align="center">
+    <em><code>❯ A WebSocket-based terminal emulator</code></em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/github/license/ojoquinhaa/esh?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/ojoquinhaa/esh?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/ojoquinhaa/esh?style=flat&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/ojoquinhaa/esh?style=flat&color=0080ff" alt="repo-language-count">
+</p>
+<p align="center">
+		<em>Built with the tools and technologies:</em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=flat&logo=HTML5&logoColor=white" alt="HTML5">
+	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
+</p>
+
+<br>
+
+#### Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [How it works](#how-it-works)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+  - [How to Contribute](#how-to-contribute)
+  - [Feature Ideas for Contribution](#feature-ideas-for-contribution)
+    - [Add Syntax Highlighting to the HTML Terminal](#add-syntax-highlighting-to-the-html-terminal)
+    - [User Management](#user-management)
+    - [Create a Simple HTTP Server to Serve the HTML Interface](#create-a-simple-http-server-to-serve-the-html-interface)
+    - [Add Automated Tests](#add-automated-tests)
+    - [WebSocket Terminal Handle User Changes (Support for User Switching)](#websocket-terminal-handle-user-changes-support-for-user-switching)
+    - [Support for Commands with Interactive Input](#support-for-commands-with-interactive-input)
+- [Code Style](#code-style)
+- [Testing](#testing)
+- [Licence](#licence)
 
 ## Overview
 ESH is a simple, web-based terminal emulator that leverages WebSockets for real-time communication between a web frontend and a Python backend. The project allows users to execute shell commands from their web browser and receive output dynamically, simulating a terminal experience.
@@ -12,14 +50,6 @@ ESH is a simple, web-based terminal emulator that leverages WebSockets for real-
 - **Command execution**: Supports typical shell commands (`cd`, `ls`, `dir`, etc.).
 - **Customizable prompt**: Displays the current working directory along with the appropriate shell prompt (Bash or PowerShell).
 - **Terminal history**: Retains a history of commands and outputs within the session.
-
-# ESH
-*A WebSocket-based terminal emulator*
-
----
-
-## Overview
-ESH is a simple, web-based terminal emulator that leverages WebSockets for real-time communication between a web frontend and a Python backend. The project allows users to execute shell commands from their web browser and receive output dynamically, simulating a terminal experience.
 
 ## Installation
 1. Clone the repository:
