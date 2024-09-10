@@ -67,7 +67,7 @@ async def handle_terminal(websocket):
 
 async def main():
     HOST = os.getenv('HOST') or 'localhost'
-    PORT = int(os.getenv('PORT')) or 8001
+    PORT = int(os.getenv('PORT') or "8001") 
 
     try:
         async with websockets.serve(handle_terminal, HOST, PORT):

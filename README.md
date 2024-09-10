@@ -20,6 +20,10 @@
 
 <br>
 
+---
+
+![ESHELL](./images/eshell.png)
+
 #### Table of Contents
 
 - [Overview](#overview)
@@ -76,7 +80,7 @@ ESH is a simple, web-based terminal emulator that leverages WebSockets for real-
 
 ## How it works
 
-![Diagram](./diagram.png)
+![Diagram](./images/diagram.png)
 
 ESH functions as a WebSocket-based terminal emulator by establishing a real-time, bidirectional connection between a Python backend and a web-based frontend.
 
